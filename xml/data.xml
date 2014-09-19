@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calcs>
+    <func name="test" return_type="int32">
+        <comment>テスト用関数</comment>
+        <arg type="int32">a</arg>
+        <arg type="int32">b</arg>
+        <arg type="int32">c</arg>
+        <calc>a+b-c</calc>
+    </func>
+</calcs>
