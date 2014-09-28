@@ -7,6 +7,11 @@ import (
 	"os"
 )
 
+// XMLタグと変数名が違う場合は定義の後に`xml:"<タグ名>"`を付ける
+// XMLタグと同じ変数名なら付けなくても大丈夫
+// XMLタグ内のパラメーターなら`xml:"<要素名>,attr"`
+// XMLタグに囲まれている文字列なら`xml:",chardata"`
+
 type CalcsData struct {
 	XMLName xml.Name
 	Funcs   []FuncData `xml:"func"`
