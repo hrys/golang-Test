@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datas>
+    <item name="回復薬1" kind="消耗品">
+        HP100回復
+        <param>100</param>
+    </item>
+    <item name="回復薬2" kind="消耗品">
+        HP200回復
+        <param>200</param>
+    </item>
+    <weapon name="武器1" kind="武器">
+        初期武器
+        <attack>10</attack>
+        <defense>0</defense>
+    </weapon>
+    <protect name="防具1" kind="防具">
+        初期防具
+        <attack>0</attack>
+        <defense>10</defense>
+    </protect>
+</datas>
